@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Capinhas Celular</title>
+</head>
+<body>
+    <nav class="d-flex m-3">
+        <img src="./img/capinhascelular.png" alt="Logo da Capinhas Celular">
+        <div class="container-fluid">
+            <div class="row">
+                <p class="fs-4 col-sm-12 col-md-12 col-lg-6 col-xl-7 col-xxl-8">Welcome Guest!</p>
+                <ul class="list-inline col-sm-12 col-md-12 col-lg-6 col-xl-5 col-xxl-4">
+                    <li class="list-inline-item list-unstyled text-primary border-1 border-end border-primary pe-2">Sign in</li>
+                    <li class="list-inline-item list-unstyled text-primary border-1 border-end border-primary pe-2">Register</li>
+                    <li class="list-inline-item list-unstyled text-primary border-1 border-end border-primary pe-2">My account</li>
+                    <li class="list-inline-item list-unstyled text-primary">Track order</li>
+                </ul>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <form class="d-flex h-25 p-0 mt-3 col-sm-12 col-md-12 col-lg-6 col-xl-7 col-xxl-8" role="search">
+                        <input class="border-1 border-end-0 rounded-start search" type="search" placeholder="Search for a Product or Category" aria-label="Search">
+                        <button class="border-1 border-start-0 rounded-end bg-secondary text-white search2" type="submit"><i class="bi bi-search me-1"></i>Search</button>
+                    </form>
+                    <div class="d-flex align-itens-center mt-2 col-sm-12 col-md-12 col-lg-6 col-xl-5 col-xxl-4 div-mycart">
+                        <div>
+                            <p>Cash on Delivery | 30 Day Return<br>24/7 Customer Service <span class="fw-bold">1800 00 11 22</span></p>
+                        </div>
+                        <div>      
+                            <button type="button" class="btn btn-outline-dark ms-2">Meu carrinho 🛒</button>  
+                        </div>     
+                    </div>               
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="container-fluid m-3">
+        <div class="row">
+            <aside class="border border-1 border-secondary lh-1 bg-secondary-subtle p-3 me-2 quickfind col-lg-2">
+                <p class="fs-6 fw-bold">Quick Find - Choose product</p>
+                <p class="fs-6 text-wrap fw-light">Find the right product at the right price</p>
+                <select class="form-select mb-2" aria-label="Disabled select example">
+                    <option selected>Type</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <select class="form-select mb-2" aria-label="Disabled select example">
+                    <option selected>Brand</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <select class="form-select mb-2" aria-label="Disabled select example">
+                    <option selected>Category</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <div class="row text-center">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="From" aria-label="First name">
+                    </div>
+                    <i class="bi fs-4 bi-currency-dollar"></i>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="To" aria-label="Last name">
+                    </div>
+                </div>
+            </aside>
+
+            <div id="carouselExample" class="carousel slide w-75 p-0 me-2 col-lg-10 corousel-widht">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/celulares01.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/celulares02.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/celulares03.png" class="d-block w-100" alt="...">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row me-3">
+            <div class="col-md-9 col-lg-9">
+                <div class="d-flex flex-wrap">
+                    <div class="card card-bottles me-3 mt-3">
+                        <img src="./img/capinha-beje.webp" class="card-img-top" alt="Capinha Beje">
+                        <div class="card-body">
+                        <h5 class="card-title">Capa Lisa Beje</h5>
+                        <p class="card-text description-card">Capa de telefone antiqueda de cor pura.</p>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <p>R$65.00</p>
+                        </div>
+                    </div>
+                    <div class="card card-bottles me-3 mt-3">
+                        <img src="./img/capinha-black.webp" class="card-img-top" alt="Capinha Black">
+                        <div class="card-body">
+                        <h5 class="card-title">Capa Lisa Preta</h5>
+                        <p class="card-text description-card">Capa de telefone antiqueda de cor pura.</p>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <p>R$65.00</p>
+                        </div>
+                    </div>
+                    <div class="card card-bottles me-3 mt-3">
+                        <img src="./img/capinha-blue.webp" class="card-img-top" alt="Capinha Blue">
+                        <div class="card-body">
+                        <h5 class="card-title">Capa Lisa Azul</h5>
+                        <p class="card-text description-card">Capa de telefone antiqueda de cor pura.</p>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <p>R$75.00</p>
+                        </div>
+                    </div>
+                    <div class="card card-bottles me-3 mt-3">
+                        <img src="./img/capinha-cinza.webp" class="card-img-top" alt="Capinha Cinza">
+                        <div class="card-body">
+                        <h5 class="card-title">Capa Lisa Cinza</h5>
+                        <p class="card-text description-card">Capa de telefone antiqueda de cor pura.</p>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <p>R$55.00</p>
+                        </div>
+                    </div>
+                    <div class="card card-bottles me-3 mt-3">
+                        <img src="./img/capinha-green.webp" class="card-img-top" alt="Capinha Verde">
+                        <div class="card-body">
+                        <h5 class="card-title">Capa Lisa Verda</h5>
+                        <p class="card-text description-card">Capa de telefone antiqueda de cor pura.</p>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <p>R$65.00</p>
+                        </div>
+                    </div>
+                    <div class="card card-bottles me-3 mt-3">
+                        <img src="./img/capinha-laranja.webp" class="card-img-top" alt="Capinha Laranja">
+                        <div class="card-body">
+                        <h5 class="card-title">Capa Lisa Laranja</h5>
+                        <p class="card-text description-card">Capa de telefone antiqueda de cor pura.</p>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <p>R$80.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 h-25">
+                <div class="border border-2 border-secondary mt-3">
+                        <p class="fs-5 p-2">Most Reviewed Items</p>
+                        <div class="d-flex p-2">
+                            <img src="./img/capinha-beje.webp" alt="Capinha Beje" class="mostreviewed-img">
+                            <div>
+                                <p class="ms-2 mb-0 description-card">Capa Beje</p>
+                                <i class="ms-2 bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <p class="ms-2 fw-bold description-card">R$65.00</p>
+                            </div>
+                        </div>
+                        <div class="d-flex p-2">
+                            <img src="./img/capinha-blue.webp" alt="Capinha Azul" class="mostreviewed-img">
+                            <div>
+                                <p class="ms-2 mb-0 description-card">Capa Azul</p>
+                                <i class="ms-2 bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <p class="ms-2 fw-bold description-card">R$75.00</p>
+                            </div>
+                        </div>
+                        <div class="d-flex p-2">
+                            <img src="./img/capinha-green.webp" alt="Capinha Verde" class="mostreviewed-img">
+                            <div>
+                                <p class="ms-2 mb-0 description-card">Capa Verde</p>
+                                <i class="ms-2 bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <p class="ms-2 fw-bold description-card">R$65.00</p>
+                            </div>
+                        </div>
+                        <div class="d-flex p-2">
+                            <img src="./img/capinha-laranja.webp" alt="Capinha Laranja" class="mostreviewed-img">
+                            <div>
+                                <p class="ms-2 mb-0 description-card">Capa Laranja</p>
+                                <i class="ms-2 bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <p class="ms-2 fw-bold description-card">R$80.00</p>
+                            </div>
+                        </div>
+                        <div class="d-flex p-2">
+                            <img src="./img/capinha-black.webp" alt="Capinha Preta" class="mostreviewed-img">
+                            <div>
+                                <p class="ms-2 mb-0 description-card">Capa Preta</p>
+                                <i class="ms-2 bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <p class="ms-2 fw-bold description-card">R$65.00</p>
+                            </div>
+                        </div>
+                        <input type="button" value="See more" class="m-2 description-card bg-secondary-subtle">
+                </div>
+                <div class="border border-2 border-secondary mt-3">
+                    <div class="m-2">
+                        <p class="fs-6 mb-0">NewsLetter</p>
+                        <p class="description-card mb-0">Signup for newsletter!</p>
+                        <input type="email" name="email" id="email" class="input-news mt-3">
+                        <input type="button" value="Join Now!" class="mt-3 description-card bg-secondary-subtle">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid bg-secondary-subtle p-3 mt-5 footer-force">
+        <div class="row">
+            <div class="col">
+                <p class="fs-6 fw-bold">Payment Methods</p>
+                <div class="d-flex flex-column">
+                    <img src="./img/pay.png" alt="Fomas de Pagamento" class="w-75">
+                    <i class="bi bi-paypal"></i>
+                </div>
+            </div>
+            <div class="col">
+                <p class="fs-6 fw-bold">Quick Links</p>
+                <ul class="list-group">
+                    <li class="list-unstyled text-primary text-footer">Shipping Policy</li>
+                    <li class="list-unstyled text-primary text-footer">Cancelation & Returns</li>
+                    <li class="list-unstyled text-primary text-footer">Help</li>
+                    <li class="list-unstyled text-primary text-footer">FAQ</li>
+                    <li class="list-unstyled text-primary text-footer">Privacy Policy</li>
+                    <li class="list-unstyled text-primary text-footer">Disclamer</li>
+                </ul>
+            </div>
+            <div class="col">
+                <p class="fs-6 fw-bold">Lets be social</p>
+                <div class="d-flex flex-column">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-google"></i>
+                </div>
+            </div>
+            <div class="col">
+                <p class="fs-6 fw-bold">Contact us</p>
+                <p class="text-footer">Address line on<br>Street No<br>Place</p>
+                <div class="d-flex">
+                    <i class="bi bi-envelope-fill me-1"></i>
+                    <p class="text-footer me-5">capinhascelular@company.com</p>
+                </div>
+                <div class="d-flex">
+                    <i class="bi bi-telephone-fill me-1"></i>
+                    <p class="fw-bold">1800 4400 22</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="bg-dark-subtle footer-force">
+        <div class="d-flex justify-content-center">
+            <i class="bi bi-c-circle me-1 mt-2"></i>
+            <p class="mt-2"> 2007-2014 capinhascelular.com</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>

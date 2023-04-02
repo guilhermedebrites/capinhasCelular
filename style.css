@@ -1,0 +1,101 @@
+.search {
+    width: 17em;
+    height: 2em;
+}
+
+.search2 {
+    width: 5em;
+    height: 2em;
+}
+
+.quickfind {
+    width: 13em;
+}
+
+.card-bottles {
+    width: 10em;
+    height: 25em;
+}
+
+.description-card {
+    font-size: 12px;
+}
+
+.mostreviewed-img {
+    max-width: 3em;
+}
+
+.input-news {
+    width: 9em;
+    height: 1.5em;
+}
+
+.text-footer {
+    font-size: 15px;
+}
+
+.footer-force {
+    min-width: 105%;
+}
+
+@media only screen and (min-width: 1400px) {
+    .quickfind {
+        min-width: 32.5em;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .corousel-widht {
+        min-width: 51em !important;
+    }
+    .card-bottles {
+        min-width: 16em;
+        min-height: 31em;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .quickfind {
+        width: 20em;
+    }
+    .corousel-widht {
+        min-width: 38em;
+    }
+    .card-bottles {
+        width: 13em;
+        height: 28em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .quickfind {
+        width: 20em;
+    }
+    .corousel-widht {
+        max-width: 24em;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .search {
+        width: 14em;
+    }
+
+    .div-mycart {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quickfind {
+        width: 12em;
+    }
+    .corousel-widht {
+        max-width: 22em;
+    }
+    .card-bottles {
+        width: 20em;
+        height: 35em;
+        margin: 0 7em;
+    }
+}
